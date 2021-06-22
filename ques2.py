@@ -11,9 +11,8 @@ async def main():
 			for i in range(len(b)):
 				print(b[i]['first_name']+' '+b[i]['last_name'])
 				count+=1
-			print(count)
+	print("Total number of users:",count)
 asyncio.run(main())
-
 
 
 
